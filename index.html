@@ -24,9 +24,19 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
-
-
 <style>
+
+#resume-section h1.big {
+    font-size: 80px !important;
+    opacity: 0.15;
+    color: #ffffff !important;
+}
+
+/* Keep the main Experience heading visible */
+#resume-section h2.mb-4 {
+    position: relative;
+    z-index: 2;
+}
 
 /*======================================
 //--//-->   ABOUT
@@ -130,7 +140,7 @@
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Experience</span></a></li>
 	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
@@ -222,25 +232,20 @@
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Sopan Dugane</span></p>
 										<p><span class="title-s">Job Role: </span> <span>Java Developer</span></p>
-										<p><span class="title-s">Experience: </span> <span> 2 Months</span></p>
+										<p><span class="title-s">Experience: </span> <span> 2+ years</span></p>
 										<p><span class="title-s">Address: </span> <span>Pune, India</span></p>
 									  </div>
 									</div>
 								  </div>
 
 								<div class="skill-mf">
-									<p class="title-s"><h4>Skills</h4></p>
-									<span> ......................................................</span><br>
+									<h4 style="margin-bottom: 0;">Skills</h4>
+									<span style="display: block; line-height: 1;">......................................................</span>
 									<span> Java </span> <br>
-									<span> MySQL </span> <br>								
-									<span> Spring FrameWork </span> <br> 								
-									<span> SpringBoot </span> <br> 
-									<span> HTML </span> <br>
-									<span> CSS </span> <br>
-									<span> JavaScript </span> <br>
-									<span> React JS </span> <br>
-									<span> C++ </span> <br>
-
+									<span> Spring Boot </span> <br>
+									<span> MySQL </span> <br>
+									<span> MongoDB </span> <br>
+									<span> Microservices </span> <br>
 								</div>
 							</div>
 						</div>
@@ -264,7 +269,7 @@
 									<li class="d-flex"><span>Domain:</span> <span>Software Development</span></li>
 									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering (B.E)</span></li>
 									<li class="d-flex"><span>Language:</span> <span>English, Hindi, Marathi</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>CURL, Postman, Maven, Git, BitBucket, JIRA, SourceTree &amp; Tomcat</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Postman, Maven, Nginx, Serevr, Git, BitBucket, SourceTree</span></li>
 									<li class="d-flex"><span>Interest:</span> <span>Playing Cricket, Chess</span></li>
 									
 								</ul>
@@ -272,12 +277,12 @@
 						</div>
 
 
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+						<!--<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
 		
 								<p><a href="https://www.linkedin.com/in/sopan-dugane-058892218/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -287,22 +292,23 @@
 
 
 	
-    <section class="ftco-section ftco-no-pb" id="resume-section">
+    <section class="ftco-section ftco-no-pb" id="resume-section"style="padding-top: 20px !important;"">
     	<div class="container">
-    		<div class="row justify-content-center pb-5">
+    		<div class="row justify-content-center pb-2">
           <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
+          	<h1 class="big big-2">Experience</h1>
+			<h2 class="mb-4">Experience</h2>
+			<div class="underline"></div>
           </div>
         </div>
 
-		<div class="row">
+		<!--<div class="row">
 			<h1 class="big-4">Experience</h1>
 			<div class="underline"></div>
 		</div>
-		<br>
+		<br> -->
 		
-		<div class="row">
+		<!--<div class="row">
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
 						<span class="date">Sep 2024 - Dec 2024</span>
@@ -317,13 +323,82 @@
 							</ul>
 						</p>
 					</div>
-
 				</div>
-
 			</div>
+		<br>
+		<br> -->
 
-		<br>
-		<br>
+		
+		<div class="row">
+    		<div class="col-md-6">
+				<div class="resume-wrap ftco-animate">
+
+					<span class="date">Jan 2025 - Present</span>
+					<h2>Java Developer</h2>
+					<span class="position">
+						Embel Technologies Pvt Ltd | Pune
+					</span>
+
+					<p class="mt-4">
+						Developed and maintained backend applications using Java,
+						Spring Boot, Spring Data JPA, Hibernate, MySQL, and MongoDB.
+					</p>
+
+					<ul>
+						<li>
+							Developed and maintained REST APIs for employee management,
+							leave, attendance, timesheet, salary, expenses, projects,
+							and task management modules.
+						</li>
+						<li>
+							Implemented business logic and database operations using
+							Spring Data JPA, Hibernate, and native SQL queries.
+						</li>
+						<li>
+							Integrated third-party APIs and tested endpoints using Postman.
+						</li>
+						<li>
+							Worked with MySQL and MongoDB for data storage, retrieval,
+							aggregation, and query optimization.
+						</li>
+						<li>
+							Implemented scheduled jobs for automated reports,
+							notifications, and employee-related processes.
+						</li>
+						<li>
+							Used Git, GitHub, Bitbucket, and Sourcetree for version
+							control and collaborated on feature branches.
+						</li>
+						<li>
+							Debugged and resolved backend issues involving APIs,
+							database queries, Hibernate/JPA, and server-side applications.
+						</li>
+            		</ul>
+
+        		</div>
+    	</div>
+
+    	<div class="col-md-6">
+        	<div class="resume-wrap ftco-animate">
+				<span class="date">Sep 2024 - Dec 2024</span>
+				<h2>Java Developer Intern</h2>
+				<span class="position">HulkHire Tech</span>
+
+				<p class="mt-4">
+					PayPal Payment Integration: Developed core integration of
+					PayPal PSP for an e-commerce client using Spring Boot,
+					REST APIs, microservices, and AWS.
+				</p>
+
+				<ul>
+					<li>Developed PayPal integration using Java, Spring Boot, and microservices.</li>
+					<li>Integrated APIs for order creation, capture, and status retrieval.</li>
+					<li>Implemented OAuth 2.0 and HMAC-SHA256 security.</li>
+					<li>Worked with MySQL using Spring JDBC.</li>
+				</ul>
+        	</div>
+    	</div>
+	</div>
 
 		<div class="row">
 			<h1 class="big-4">Education</h1>
@@ -357,11 +432,11 @@
 				</div>
     		</div>
 
-    		<div class="row justify-content-center mt-5">
+    		<!--<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
 					<p><a href="https://drive.google.com/uc?export=download&id=1MFv7t0kFsl8VhJDInN6qbUirQTqRwPgR" class="btn btn-primary py-4 px-5">Download CV</a></p>
     			</div>
-    		</div>
+    		</div> -->
     	</div>
     </section>
 
@@ -371,8 +446,8 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
+            <h1 class="big big-2">Academic Projects</h1>
+            <h2 class="mb-4">Academic Projects</h2>
             <p>Below are the sample Java Development projects on JAVA, SQL, Spring Boot, React.js.</p>
           </div>
         </div>
@@ -480,7 +555,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="https://drive.google.com/file/d/1MFv7t0kFsl8VhJDInN6qbUirQTqRwPgR/view?usp=sharing" style="color: rgb(93, 93, 240);">resumelink</a></p>
+	            <p><a href="https://drive.google.com/file/d/15wcfbleVvetJ5RgsU5uZir8FDGHe3TkD/view?usp=sharing" style="color: rgb(93, 93, 240);">resumelink</a></p>
 	          </div>
           </div>
 
